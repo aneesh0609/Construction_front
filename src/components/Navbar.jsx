@@ -60,6 +60,7 @@ export default function Navbar() {
     { name: "Projects", path: "/projects" },
     { name: "Features", path: "/features" },
     { name: "Gallery", path: "/gallery" },
+    { name: "Career", path: "/career" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
@@ -77,7 +78,7 @@ export default function Navbar() {
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
-            {/* Logo Section */}
+           
             <Link
               to="/"
               className="flex items-center space-x-3 group flex-shrink-0"
@@ -96,7 +97,7 @@ export default function Navbar() {
               </div>
             </Link>
 
-            {/* Desktop Navigation Links */}
+          
             <ul className="hidden lg:flex items-center gap-1 xl:gap-2">
               {navLinks.map((link) => (
                 <li key={link.name}>
@@ -161,7 +162,7 @@ export default function Navbar() {
           }`}
         >
           <div className="bg-white border-t border-gray-100 shadow-lg">
-            <ul className="px-4 pt-2 pb-4 space-y-1">
+            <ul className="px-4 pt-1 pb-4 ">
               {navLinks.map((link) => (
                 <li key={link.name}>
                   <Link

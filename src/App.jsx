@@ -11,6 +11,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Footer from "./components/Footer";
+import CareerPage from "./pages/Career";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/gallery" element={<Gallery />} />
            <Route path="/features" element={<Features />} />
+            <Route path="/career" element={<CareerPage />} />
             <Route path="/about" element={<AboutUs />} />
               <Route path="/projects/:slug" element={<ProjectDetail />} />
       </Routes>
