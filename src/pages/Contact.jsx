@@ -368,18 +368,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Map Placeholder */}
-                <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100">
-                  <div className="h-80 bg-slate-100 flex items-center justify-center relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-orange-100 to-yellow-100 opacity-50"></div>
-                    <div className="relative text-center px-6">
-                      <MapPin className="w-16 h-16 text-orange-500 mx-auto mb-4" />
-                      <h4 className="text-xl font-bold text-slate-900 mb-2">Visit Our Office</h4>
-                      <p className="text-slate-600 mb-4">123 Construction Ave, Building District<br />Mumbai, Maharashtra 400001</p>
-                      
-                    </div>
-                  </div>
-                </div>
+               
               </motion.div>
             </div>
           </div>
