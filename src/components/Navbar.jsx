@@ -122,25 +122,7 @@ export default function Navbar() {
               ))}
             </ul>
 
-            {/* Desktop Login/Logout Button */}
-            <div className="hidden lg:flex items-center">
-              {isLoggedIn ? (
-                <button
-                  onClick={handleLogout}
-                  className="relative px-6 py-2.5 bg-gradient-to-r from-red-600 to-red-700 text-white font-medium rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-md hover:shadow-lg"
-                >
-                  Logout
-                </button>
-              ) : (
-                <button
-                  onClick={() => navigate("/login")}
-                  className="relative px-6 py-2.5 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-md hover:shadow-lg"
-                >
-                  Login
-                </button>
-              )}
-            </div>
-
+           
             {/* Mobile Menu Button */}
             <button
               className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
@@ -179,29 +161,7 @@ export default function Navbar() {
                 </li>
               ))}
 
-              <li className="pt-2">
-                {isLoggedIn ? (
-                  <button
-                    onClick={() => {
-                      handleLogout();
-                      setIsOpen(false);
-                    }}
-                    className="w-full px-4 py-3 bg-gradient-to-r from-red-600 to-red-700 text-white font-medium rounded-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 shadow-md text-center"
-                  >
-                    Logout
-                  </button>
-                ) : (
-                  <button
-                    onClick={() => {
-                      navigate("/login");
-                      setIsOpen(false);
-                    }}
-                    className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 shadow-md text-center"
-                  >
-                    Login
-                  </button>
-                )}
-              </li>
+          
             </ul>
           </div>
         </div>
