@@ -70,7 +70,7 @@ export default function ServiceTestimonials() {
   return (
     <>
       <Helmet>
-        <title>Testimonials | Beena Construction</title>
+        <title> Beena Construction</title>
         <meta
           name="description"
           content="Read testimonials from our satisfied clients about residential, commercial, and industrial construction services."
