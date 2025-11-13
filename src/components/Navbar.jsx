@@ -92,7 +92,7 @@ export default function Navbar() {
               </div>
               <div className="hidden sm:block">
                 <span className="text-lg md:text-xl font-bold text-gray-900 tracking-tight">
-                  BEENA CONSTRUCTION
+                  BENNU CONSTRUCTION
                 </span>
               </div>
             </Link>

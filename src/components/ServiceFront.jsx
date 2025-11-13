@@ -43,7 +43,7 @@ export default function TestimonialWithCompanyHighlights() {
             India.
           </p>
           <p className="text-indigo-400 font-semibold text-lg mb-16">
-            — Beena Construction Pvt. Ltd.
+            — Bennu Construction Pvt. Ltd.
           </p>
         </motion.div>
 

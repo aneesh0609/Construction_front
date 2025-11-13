@@ -12,7 +12,7 @@ export default function ServiceTestimonials() {
       name: "John Doe",
       role: "Homeowner",
       comment:
-        "BuildRight transformed my house into a modern dream home. Professional, timely, and exceptional quality!",
+        "Bennu transformed my house into a modern dream home. Professional, timely, and exceptional quality!",
       photo: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
@@ -36,7 +36,7 @@ export default function ServiceTestimonials() {
       name: "Linda Williams",
       role: "Investor",
       comment:
-        "BuildRight made our commercial project hassle-free. Professional, transparent, and reliable team.",
+        "Bennu made our commercial project hassle-free. Professional, transparent, and reliable team.",
       photo: "https://randomuser.me/api/portraits/women/50.jpg",
     },
   ];
@@ -52,7 +52,7 @@ export default function ServiceTestimonials() {
     "@type": "Review",
     "itemReviewed": {
       "@type": "Service",
-      "name": "BuildRight Construction",
+      "name": "Beenu Construction",
       "description": "Construction services: residential, commercial, industrial, and renovation projects.",
     },
     "review": testimonials.map((t) => ({
@@ -70,7 +70,7 @@ export default function ServiceTestimonials() {
   return (
     <>
       <Helmet>
-        <title> Beena Construction</title>
+        <title> Bennu Construction</title>
         <meta
           name="description"
           content="Read testimonials from our satisfied clients about residential, commercial, and industrial construction services."

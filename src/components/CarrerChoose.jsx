@@ -81,13 +81,13 @@ export default function WhyChooseUs() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-orange-100 px-4 py-2 rounded-full mb-4">
             <Star className="text-orange-600" size={20} />
-            <span className="text-orange-700 font-semibold">Why Beena Construction?</span>
+            <span className="text-orange-700 font-semibold">Why Bennu Construction?</span>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-slate-900 mb-6">
             More Than Just a <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-700">Job</span>
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            At Beena Construction, we don't just build structures—we build careers, communities, and futures. 
+            At Bennu Construction, we don't just build structures—we build careers, communities, and futures. 
             Join a legacy of excellence that spans decades and transforms lives.
           </p>
         </div>

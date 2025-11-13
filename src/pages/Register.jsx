@@ -48,14 +48,14 @@ export default function Register() {
   return (
     <>
       <Helmet>
-        <title>Register | BuildRight Construction</title>
+        <title>Register | Bennu Construction</title>
         <meta
           name="description"
-          content="Create a new account with BuildRight Construction to access project updates, services, and request quotes."
+          content="Create a new account with Bennu Construction to access project updates, services, and request quotes."
         />
         <meta
           name="keywords"
-          content="construction, register, signup, BuildRight, user account"
+          content="construction, register, signup, Bennu, user account"
         />
       </Helmet>
 

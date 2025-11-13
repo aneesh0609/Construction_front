@@ -78,7 +78,7 @@ export default function SmartConstructionIntegration() {
   return (
     <main className="bg-gray-50 text-gray-900">
       <Helmet>
-        <title>Smart Construction Integration | Beena Construction</title>
+        <title>Smart Construction Integration | Bennu Construction</title>
         <meta
           name="description"
           content="Explore Thikedaar’s Smart Construction Integration — from intelligent planning and quality checks to sustainable site execution."
@@ -86,6 +86,7 @@ export default function SmartConstructionIntegration() {
       </Helmet>
 
       {/* ================= HERO SECTION ================= */}
+
       <section className="relative bg-gradient-to-b from-indigo-900 via-indigo-800 to-gray-900 text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
@@ -208,7 +209,7 @@ export default function SmartConstructionIntegration() {
           Build Smarter. Build With Us.
         </h2>
         <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-          From concept to completion, Beena Construction ensures a
+          From concept to completion, Bennu Construction ensures a
           seamless, transparent, and innovative construction journey.
         </p>
         

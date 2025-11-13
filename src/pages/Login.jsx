@@ -40,14 +40,14 @@ export default function Login() {
   return (
     <>
       <Helmet>
-        <title>Login | Beena Construction</title>
+        <title>Login | Bennu Construction</title>
         <meta
           name="description"
-          content="Login to your BuildRight Construction account to access project updates, services, and request quotes."
+          content="Login to your Bennu Construction account to access project updates, services, and request quotes."
         />
         <meta
           name="keywords"
-          content="construction, login, BuildRight, user account"
+          content="construction, login, Bennu, user account"
         />
       </Helmet>
 

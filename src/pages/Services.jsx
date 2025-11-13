@@ -28,20 +28,20 @@ export default function Services() {
     "@type": "Service",
     "provider": {
       "@type": "Organization",
-      "name": "Beena Construction",
+      "name": "Bennu Construction",
       "url": "https://your-domain.com"
     },
     "serviceType": services.map(s => s.title),
-    "description": "BuildRight offers residential, commercial, industrial, and renovation construction services."
+    "description": "Beenu offers residential, commercial, industrial, and renovation construction services."
   };
 
   return (
     <>
       <Helmet>
-        <title>Our Services | Beena Constructions</title>
+        <title>Our Services | Bennu Constructions</title>
         <meta
           name="description"
-          content="BuildRight offers residential, commercial, industrial, and renovation construction services with high-quality standards."
+          content="Bennu offers residential, commercial, industrial, and renovation construction services with high-quality standards."
         />
         <meta
           name="keywords"

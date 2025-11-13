@@ -17,7 +17,7 @@ const timelineItems = [
   },
   {
     title: "Design and Planning",
-    subtitle: "Beena construction company ",
+    subtitle: "Bennu construction company ",
     text: `Collaborate with our highly skilled architects to design your home that reflects your personal style and functional needs. Our design process incorporates the latest technology to develop precise architectural plans, which are then handed over to our experienced Civil Engineers for Structural and MEP Drawings. Upon approval of these plans, Our AI seamlessly schedules the project and transitions it to the construction phase.`,
     img: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=60",
   },

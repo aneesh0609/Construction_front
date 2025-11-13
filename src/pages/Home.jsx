@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Beena Construction Company</title>
+        <title>Bennu Construction Company</title>
         <meta
           name="description"
-          content="Beena construction is a top construction company offering residential, commercial, and industrial projects with high-quality standards."
+          content="Bennu construction is a top construction company offering residential, commercial, and industrial projects with high-quality standards."
         />
         <meta
           name="keywords"

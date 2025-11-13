@@ -51,7 +51,7 @@ export default function ProjectDetail() {
   return (
     <>
       <Helmet>
-        <title>{project.title} | BuildRight Construction</title>
+        <title>{project.title} | Beenu Construction</title>
         <meta name="description" content={project.description} />
         <meta name="keywords" content={`${project.title}, construction, project`} />
         <link rel="canonical" href={`https://your-domain.com/projects/${project.slug}`} />

@@ -26,7 +26,7 @@ export default function Features() {
     "@type": "Service",
     "provider": {
       "@type": "Organization",
-      "name": "BEENA Constructions",
+      "name": "BENNU Constructions",
       "url": "https://your-domain.com",
     },
     "hasOfferCatalog": {
@@ -55,7 +55,7 @@ export default function Features() {
   return (
     <>
       <Helmet>
-        <title>Our Features | BEENA Constructions</title>
+        <title>Our Features | BENNU Construction</title>
         <meta
           name="description"
           content="Explore the key features, safety protocols, and advantages of BEENA Constructions, highlighting our expertise and commitment to quality."

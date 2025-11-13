@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold text-white mb-4">BEENA Constructions</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">BENNU Construction</h2>
           <p className="text-gray-400">
             Building your dreams with precision and excellence. We specialize in Residential, Commercial, Industrial & Renovation projects with utmost safety and quality.
           </p>
@@ -29,9 +29,9 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-4">Contact Us</h3>
-          <p className="text-gray-400">123 BEENA Street, Cityname, India</p>
+          <p className="text-gray-400">123 BENNU Street, Cityname, India</p>
           <p className="text-gray-400">Phone: +91 98765 43210</p>
-          <p className="text-gray-400">Email: info@beenaconstructions.com</p>
+          <p className="text-gray-400">Email: info@bennuconstructions.com</p>
         </div>
 
         {/* Newsletter & Social */}
@@ -49,7 +49,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-gray-500 mt-10 border-t border-gray-800 pt-6 space-y-2">
-        <p>© {new Date().getFullYear()} BEENA CONSTRUCTIONS. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} BENNU CONSTRUCTIONS. All rights reserved.</p>
         <p className="text-xs">
           Some images used on this website are from <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 underline">Freepik</a>
         </p>

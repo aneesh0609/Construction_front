@@ -95,7 +95,7 @@ export default function ProjectShowcaseTestimonial() {
               in-house project management AI reduced construction time by 18%.
             </p>
             <p className="text-indigo-400 mt-4 font-semibold">
-              — Project Division, Beena Construction Pvt. Ltd.
+              — Project Division, Bennu Construction Pvt. Ltd.
             </p>
           </div>
 

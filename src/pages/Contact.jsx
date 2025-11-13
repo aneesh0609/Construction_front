@@ -40,7 +40,7 @@ export default function Contact() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact BEENA Construction",
+    "name": "Contact BENNU Construction",
     "url": "https://your-domain.com/contact",
     "contactOption": [
       {
@@ -64,7 +64,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@beenaconstructions.com",
+      content: "info@bennuconstructions.com",
       subContent: "We'll respond within 24 hours",
       gradient: "from-blue-500 to-cyan-600",
       iconBg: "bg-blue-100",
@@ -110,14 +110,14 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact Us | BEENA Construction</title>
+        <title>Contact Us | BENNU Construction</title>
         <meta
           name="description"
-          content="Get in touch with BEENA Construction for residential, commercial, industrial, and renovation projects. Contact us for consultations and project inquiries."
+          content="Get in touch with BENNU Construction for residential, commercial, industrial, and renovation projects. Contact us for consultations and project inquiries."
         />
         <meta
           name="keywords"
-          content="construction contact, builders contact, project inquiry, renovation inquiry, BEENA constructions contact"
+          content="construction contact, builders contact, project inquiry, renovation inquiry, BENNU constructions contact"
         />
         <link rel="canonical" href="https://your-domain.com/contact" />
         <script type="application/ld+json">
@@ -349,7 +349,7 @@ export default function Contact() {
                   <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500 rounded-full blur-3xl opacity-20"></div>
                   <div className="relative">
                     <Building2 className="w-12 h-12 text-orange-400 mb-4" />
-                    <h3 className="text-2xl font-bold mb-4">Why Choose BEENA?</h3>
+                    <h3 className="text-2xl font-bold mb-4">Why Choose BENNU?</h3>
                     <ul className="space-y-3">
                       {[
                         "20+ years of construction excellence",

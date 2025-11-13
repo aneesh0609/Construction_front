@@ -14,7 +14,7 @@ export default function AboutUs() {
     {
       name: "Karan Mehta",
       position: "Homeowner",
-      feedback: "BEENA Constructions delivered our dream home on time with impeccable quality. Highly recommended!",
+      feedback: "BENNU Constructions delivered our dream home on time with impeccable quality. Highly recommended!",
     },
     {
       name: "Shivani Rao",
@@ -31,11 +31,11 @@ export default function AboutUs() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "BEENA Constructions",
+    "name": "BENNU Construction",
     "url": "https://your-domain.com",
     "logo": "https://your-domain.com/logo.png",
     "sameAs": [],
-    "description": "BEENA Constructions is a premier construction company specializing in residential, commercial, and industrial projects with a commitment to quality and innovation."
+    "description": "BENNU Constructions is a premier construction company specializing in residential, commercial, and industrial projects with a commitment to quality and innovation."
   };
 
   const containerVariants = {
@@ -58,10 +58,10 @@ export default function AboutUs() {
   return (
     <>
       <Helmet>
-        <title>About Us | BEENA Constructions</title>
+        <title>About Us | BENNU Construction</title>
         <meta
           name="description"
-          content="Learn about BEENA Constructions, our mission, vision, values, team, and client testimonials. Delivering high-quality construction projects across residential, commercial, and industrial sectors."
+          content="Learn about BENNU Constructions, our mission, vision, values, team, and client testimonials. Delivering high-quality construction projects across residential, commercial, and industrial sectors."
         />
         <link rel="canonical" href="https://your-domain.com/about-us" />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
@@ -92,11 +92,11 @@ export default function AboutUs() {
               </motion.div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                About <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-400">BEENA Constructions</span>
+                About <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-400">BENNU Construction</span>
               </h1>
               
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto">
-                BEENA Constructions is a leading construction company delivering innovative, sustainable, and high-quality residential, commercial, and industrial projects. Our team is dedicated to turning visions into reality with efficiency and precision.
+                BENNU Constructions is a leading construction company delivering innovative, sustainable, and high-quality residential, commercial, and industrial projects. Our team is dedicated to turning visions into reality with efficiency and precision.
               </p>
             </motion.div>
           </div>
@@ -119,7 +119,7 @@ export default function AboutUs() {
                   gradient: "from-orange-500 to-orange-600",
                   iconBg: "bg-orange-100",
                   iconColor: "text-orange-600",
-                  content: "At BEENA Constructions, our mission is to deliver exceptional construction projects that combine innovation, quality, and sustainability. We are dedicated to transforming architectural visions into reality by leveraging advanced technology, skilled craftsmanship, and meticulous project management. We strive to exceed client expectations by delivering projects on time, within budget, and to the highest standards of safety and environmental responsibility."
+                  content: "At BENNU Constructions, our mission is to deliver exceptional construction projects that combine innovation, quality, and sustainability. We are dedicated to transforming architectural visions into reality by leveraging advanced technology, skilled craftsmanship, and meticulous project management. We strive to exceed client expectations by delivering projects on time, within budget, and to the highest standards of safety and environmental responsibility."
                 },
                 {
                   icon: Eye,
@@ -127,7 +127,7 @@ export default function AboutUs() {
                   gradient: "from-yellow-500 to-amber-600",
                   iconBg: "bg-yellow-100",
                   iconColor: "text-yellow-600",
-                  content: "At BEENA Constructions, our vision is to be recognized as a leader in the construction industry, known for delivering innovative, high-quality, and sustainable projects. We aspire to set new benchmarks in design, engineering, and project execution by embracing cutting-edge technology and modern construction practices. We envision a future where every structure we build enhances the community and environment."
+                  content: "At BENNU Construction, our vision is to be recognized as a leader in the construction industry, known for delivering innovative, high-quality, and sustainable projects. We aspire to set new benchmarks in design, engineering, and project execution by embracing cutting-edge technology and modern construction practices. We envision a future where every structure we build enhances the community and environment."
                 },
                 {
                   icon: Heart,
@@ -135,7 +135,7 @@ export default function AboutUs() {
                   gradient: "from-slate-600 to-slate-700",
                   iconBg: "bg-slate-100",
                   iconColor: "text-slate-600",
-                  content: "At BEENA Constructions, our values define every decision and project we undertake. We operate with integrity, transparency, and excellence in every detail, delivering superior craftsmanship while embracing innovation and sustainable practices to meet evolving client and community needs."
+                  content: "At BENNU Constructions, our values define every decision and project we undertake. We operate with integrity, transparency, and excellence in every detail, delivering superior craftsmanship while embracing innovation and sustainable practices to meet evolving client and community needs."
                 }
               ].map((item, idx) => (
                 <motion.article

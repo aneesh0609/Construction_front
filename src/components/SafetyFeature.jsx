@@ -30,7 +30,7 @@ export default function SafetyFeatures() {
   return (
     <>
       <Helmet>
-        <title>Safety & Features | BEENA Construction</title>
+        <title>Safety & Features | BENNU Construction</title>
         <meta
           name="description"
           content="BEENA Constructions ensures top-notch safety and innovative construction features in every project, delivering quality and sustainable results."
@@ -68,7 +68,7 @@ export default function SafetyFeatures() {
               Safety & Innovative Features
             </h2>
             <p className="text-gray-700 mb-4">
-              At <strong>BEENA Constructions</strong>, safety is embedded in every stage of our construction process. We combine strict safety protocols, advanced equipment, and professional expertise to deliver projects that are secure, innovative, and sustainable.
+              At <strong>BENNU Construction</strong>, safety is embedded in every stage of our construction process. We combine strict safety protocols, advanced equipment, and professional expertise to deliver projects that are secure, innovative, and sustainable.
             </p>
             <p className="text-gray-700 mb-8">
               Our commitment to quality ensures every structure we build meets rigorous standards while incorporating modern construction techniques. Partner with us to experience projects that are visually impressive, safe, and built to last.

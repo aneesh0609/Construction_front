@@ -27,7 +27,7 @@ export default function Gallery() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ImageGallery",
-    "name": "BuildRight Construction Gallery",
+    "name": "BEENU CONSTRUCTION",
     "description": "Explore our completed residential, commercial, and industrial construction projects.",
     "image": images.map((img) => img.imageUrl),
   };
@@ -64,7 +64,7 @@ export default function Gallery() {
   return (
     <>
       <Helmet>
-        <title>Project Gallery | BuildRight Construction</title>
+        <title>Project Gallery | BEENU Construction</title>
         <meta
           name="description"
           content="View our latest construction projects – residential, commercial, industrial, road construction and renovation works."

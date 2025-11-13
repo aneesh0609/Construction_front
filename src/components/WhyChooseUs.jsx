@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
   return (
     <section className="bg-gray-50 py-20">
       <Helmet>
-        <title>Why Choose Us | BEENA CONSTRUCTION</title>
+        <title>Why Choose Us | BENNU CONSTRUCTION</title>
         <meta
           name="description"
           content="BuildRight Construction delivers quality infrastructure with an experienced team, timely delivery, premium materials, and customer satisfaction."
@@ -48,10 +48,10 @@ export default function WhyChooseUs() {
         {/* Right Content */}
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
-            Why Choose Beena Construction
+            Why Choose Bennu Construction
           </h2>
           <p className="text-gray-700 mb-8">
-            At beena construction , we are committed to delivering excellence in every project. 
+            At bennu construction , we are committed to delivering excellence in every project. 
             From residential to commercial constructions, our approach ensures efficiency, quality, and client satisfaction.
           </p>
 
